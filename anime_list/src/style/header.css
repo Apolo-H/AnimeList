@@ -1,0 +1,27 @@
+#header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: #3333332f;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    z-index: 100;
+
+    nav {
+        display: flex;
+        align-items: center;
+
+        a {
+            color: #fff;
+            font-size: 2rem;
+            margin-right: 1.5rem;
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
+
+        a:hover {
+            color: blue
+        }
+    }
+}
